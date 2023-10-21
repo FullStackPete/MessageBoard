@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Submit message</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Submit your message!</h1>
+    </div>
+    <form method="POST" action="/new">
+      <div class="inputs">
+        <input
+          class="newmessage-input"
+          type="text"
+          placeholder="Enter your name!"
+          name="userText"
+        />
+        <input
+          class="newmessage-input"
+          type="text"
+          placeholder="Type your message!"
+          name="messageText"
+        />
+        <button id="submitBtn" type="submit">Submit!</button>
+      </div>
+    </form>
+  </body>
+</html>

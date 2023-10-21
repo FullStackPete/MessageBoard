@@ -1,0 +1,100 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #e7f0ff;
+  background-color: #c2d9ff;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.header {
+  color: #190482;
+  text-align: center;
+}
+.header h1 {
+  font-size: 56px;
+}
+.header p {
+  font-size: 20px;
+}
+.display-board {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.message-wrap {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px 40px 40px 40px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #7752fe;
+}
+
+.user-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space user and date apart */
+}
+
+.user {
+  margin-left: 10px;
+  font-size: 28px;
+}
+.date {
+  font-size: 14px;
+  color: #c2d9ff;
+}
+
+.message-content {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-top: 2px solid #c2d9ff;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputs input {
+  padding: 16px;
+  margin: 16px;
+  width: 600px;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #8E8FFA;
+  transition: all 0.3s ease-in-out;
+}
+.inputs input:focus  {
+  outline: none;
+  border:none;
+  border: 2px solid #7752FE;
+  transition: all 0.3s ease-in-out;
+}
+.newmessage-input {
+  font-size: 20px;
+}
+#submitBtn {
+  color:#190482;
+  font-size:20px;
+  width:120px;
+  height:60px;
+  border-radius: 10px;
+  border-style:none;
+  border: 2px solid #7752FE;
+  background-color: #8E8FFA;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#submitBtn:hover{
+  color:white !important;
+  border:2px solid #8E8FFA;
+  transition: all 0.3s ease-in-out;
+  background-color: #7752FE;
+}

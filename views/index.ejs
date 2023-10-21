@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1><%= title %></h1>
+      <p>Submit your message <a type="button" href="/new">here</a>.</p>
+    </div>
+    <% messages.forEach(function(message){ %>
+    <div class="display-board">
+      <div class="message-wrap">
+        <div class="user-date">
+          <div class="user">
+            <h1><%= message.user %></h1>
+          </div>
+          <div class="date">
+            <p><%= message.added %></p>
+          </div>
+        </div>
+        <div class="message-content">
+          <p><%= message.text %></p>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </body>
+</html>
