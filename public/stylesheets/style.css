@@ -70,6 +70,14 @@ a {
   border: 2px solid #8e8ffa;
   transition: all 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 600px) {
+  .inputs input {
+    width:300px;
+  }
+}
+
+
 .inputs input:focus {
   outline: none;
   border: none;
