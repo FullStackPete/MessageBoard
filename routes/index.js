@@ -15,7 +15,6 @@ async function readDocuments() {
   try {
     await client.connect();
     messages = await database.collection("userCollection").find().toArray();
-    console.log(messages);
   } finally {
     await client.close();
   }
