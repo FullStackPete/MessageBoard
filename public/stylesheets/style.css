@@ -44,7 +44,7 @@ a {
   font-size: 28px;
 }
 .date {
-  font-size: 14px;
+  font-size: 20px;
   color: #c2d9ff;
 }
 
@@ -67,34 +67,34 @@ a {
   width: 600px;
   border: none;
   border-radius: 15px;
-  border: 2px solid #8E8FFA;
+  border: 2px solid #8e8ffa;
   transition: all 0.3s ease-in-out;
 }
-.inputs input:focus  {
+.inputs input:focus {
   outline: none;
-  border:none;
-  border: 2px solid #7752FE;
+  border: none;
+  border: 2px solid #7752fe;
   transition: all 0.3s ease-in-out;
 }
 .newmessage-input {
   font-size: 20px;
 }
 #submitBtn {
-  color:#190482;
-  font-size:20px;
-  width:120px;
-  height:60px;
+  color: #190482;
+  font-size: 20px;
+  width: 120px;
+  height: 60px;
   border-radius: 10px;
-  border-style:none;
-  border: 2px solid #7752FE;
-  background-color: #8E8FFA;
+  border-style: none;
+  border: 2px solid #7752fe;
+  background-color: #8e8ffa;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
-#submitBtn:hover{
-  color:white !important;
-  border:2px solid #8E8FFA;
+#submitBtn:hover {
+  color: white !important;
+  border: 2px solid #8e8ffa;
   transition: all 0.3s ease-in-out;
-  background-color: #7752FE;
+  background-color: #7752fe;
 }
